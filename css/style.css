@@ -259,7 +259,19 @@ li {
 .question-wrap-block__bottom {
   padding: 3% 0;
 }
-.question-wrap-block__bottom p span {
+.question-wrap-block__bottom p {
+  padding-left: 5%;
+  letter-spacing: 1.5px;
+  line-height: 1.2;
+  position: relative;
+}
+.question-wrap-block__bottom p::before{
+  content: "A.";
+  position: absolute;
+  left: 2.5%;
+}
+
+.question-wrap-block__bottom span {
   font-size: 1.2rem;
 }
 
